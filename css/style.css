@@ -1,13 +1,9 @@
+/* Reset */
 * {
     padding: 0px;
     margin: 0px; 
     box-sizing: border-box;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 li {
     list-style-type: none;
 }
@@ -19,4 +15,35 @@ img {
 
 a {
     text-decoration: none;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.flex {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Header */
+.header {
+    max-width: 1440px;
+    padding: 110px 0 0 0;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url(../imagens/bg-header-desktop.png);
+}
+
+.header div img{
+    margin: 0 auto;
 }
