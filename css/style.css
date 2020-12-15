@@ -3,6 +3,11 @@
     margin: 0px; 
     box-sizing: border-box;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 li {
     list-style-type: none;
 }
