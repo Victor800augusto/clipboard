@@ -105,3 +105,29 @@ p {
     max-width: 620px;
     margin: 0 auto;
 }
+
+/* Seccao advantages */
+.advantages {
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.advantages div {
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.advantages img {
+    position: relative;
+    right: 55px;
+}
+
+.advantages ul {
+    max-width: 330px;
+}
+
+.advantages li {
+    text-align: left;
+    max-width: 330px;
+    margin: 15px 0;
+}
