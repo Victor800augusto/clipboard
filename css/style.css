@@ -31,9 +31,15 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
 p {
     font-weight: 400;
     color:hsl(201, 11%, 66%);
+    line-height: 180%;
 }
 
 .flex {
@@ -87,4 +93,15 @@ p {
 }
 .btn-download-mac {
     background-color: hsl(233, 100%, 69%);
+}
+
+/* Seccao keep-track */
+
+.keep-track {
+    margin: 50px auto;
+    text-align: center;
+}
+.keep-track p{
+    max-width: 620px;
+    margin: 0 auto;
 }
