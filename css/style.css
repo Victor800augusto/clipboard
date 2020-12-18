@@ -79,7 +79,7 @@ p {
     margin: 20px auto;
 }
 
-.download button {
+button {
     padding: 13px 27px;
     border-radius: 30px;
     color: white;
@@ -195,4 +195,18 @@ p {
 .logos ul li {
     display: inline-block;
     margin: 30px;
+}
+
+/* Seccao clipboard-for */
+
+.clipboard-for {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.clipboard-for p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
