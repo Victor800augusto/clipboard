@@ -113,8 +113,9 @@ p {
 }
 
 .advantages div div{
-    max-width: 650px;
+    max-width: 750px;
     overflow: hidden;
+    max-height: 730px;
 }
 
 .advantages img {
@@ -124,7 +125,7 @@ p {
 
 .advantages ul {
     max-width: 330px;
-    margin-left: 30px;
+    margin: 0 auto;
 }
 
 .advantages li {
@@ -150,4 +151,33 @@ p {
 .devices {
     max-width: 850px;
     margin: 0 auto;
+}
+
+/* Seccao productivity-tools */
+
+.productivity-tools {
+    max-width:  1440px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.productivity-tools > div {
+    margin-bottom: 50px;
+}
+
+.productivity-tools ul li {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 350px;
+    height: 180px;
+    margin: 20px;
+}
+
+.productivity-tools ul li h3{
+    margin: 20px 0;
+}
+
+.productivity-tools ul li img{
+    margin: 0 auto;
+    
 }
