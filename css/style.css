@@ -108,11 +108,15 @@ p {
 
 /* Seccao advantages */
 .advantages {
-    max-height: 500px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: 40px auto 100px auto;
 }
 
-.advantages div {
+.advantages > div {
+    justify-content: center;
+}
+
+.advantages div div{
     max-width: 600px;
     overflow: hidden;
 }
@@ -130,4 +134,12 @@ p {
     text-align: left;
     max-width: 330px;
     margin: 15px 0;
+}
+
+/* Seccao access-clipboard */
+
+.access-clipboard{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
 }
