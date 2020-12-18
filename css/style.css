@@ -143,3 +143,14 @@ p {
     margin: 0 auto;
     text-align: center;
 }
+
+.access-clipboard p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.devices {
+    max-width: 850px;
+    margin: 0 auto;
+}
