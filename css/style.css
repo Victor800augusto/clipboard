@@ -179,5 +179,7 @@ p {
 
 .productivity-tools ul li img{
     margin: 0 auto;
-    
+}
+.productivity-tools ul li div {
+    height: 40px;
 }
