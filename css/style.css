@@ -183,3 +183,16 @@ p {
 .productivity-tools ul li div {
     height: 40px;
 }
+
+/* Seccao logos */
+
+.logos {
+    max-width: 1440px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.logos ul li {
+    display: inline-block;
+    margin: 30px;
+}
