@@ -48,6 +48,19 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* responsividade geral */
+@media (max-width:375px) {
+    h1{
+        font-size: 2rem;
+    }
+    h1,h2 {
+        margin: 0 auto;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
 /* Header */
 .header {
     max-width: 1440px;
@@ -95,6 +108,21 @@ button {
     background-color: hsl(233, 100%, 69%);
 }
 
+/* Seccao Download responsividade */
+
+@media (max-width:375px) {
+    button {
+        padding: 15px 85px;
+        margin: 7px;
+    }
+    .download p {
+        max-width: 275px;
+    }
+    p{
+        font-size: .9rem;
+    }
+}
+
 /* Seccao keep-track */
 
 .keep-track {
@@ -104,6 +132,15 @@ button {
 .keep-track p{
     max-width: 620px;
     margin: 0 auto;
+}
+
+/* Seccao keep-track responsividade */
+
+@media (max-width:375px) {
+
+    .keep-track p{
+        max-width: 280px;
+    }
 }
 
 /* Seccao advantages */
@@ -134,6 +171,25 @@ button {
     margin: 45px 0;
 }
 
+/* Seccao advantages responsividade */
+@media (max-width:1100px) {
+    .advantages img {
+        right: 0px;
+    }
+    .advantages div {
+        margin: 0 auto;
+    }
+    .advantages li {
+        text-align: center;
+        max-width: 275px;
+    }
+}
+
+@media (max-width:720px) {
+    .advantages div {
+        padding: 0 20px;
+    }
+}
 /* Seccao access-clipboard */
 
 .access-clipboard{
@@ -151,6 +207,17 @@ button {
 .devices {
     max-width: 850px;
     margin: 0 auto;
+}
+
+/* Seccao access-clipboard responsividade */
+
+@media (max-width:375px) {
+    .access-clipboard p {
+        max-width: 280px;
+    }
+    .devices {
+        padding: 0 20px;
+    }
 }
 
 /* Seccao productivity-tools */
@@ -184,6 +251,18 @@ button {
     height: 40px;
 }
 
+/* Seccao productivity-tools responsividade */
+
+@media (max-width:375px) {
+    .productivity-tools > div p {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .productivity-tools ul li p {
+        max-width: 280px;
+    }
+}
+
 /* Seccao logos */
 
 .logos {
@@ -195,6 +274,14 @@ button {
 .logos ul li {
     display: inline-block;
     margin: 30px;
+}
+
+/* Seccao logos responsividade */
+
+@media (max-width:375px) {
+    .logos ul li{
+        max-width: 145px;
+    }
 }
 
 /* Seccao clipboard-for */
@@ -210,6 +297,14 @@ button {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+/* Seccao clipboard-for responsividade */
+
+@media (max-width:375px) {
+    .clipboard-for p {
+        max-width: 275px;
+    }
 }
 
 /* Footer */
@@ -258,4 +353,22 @@ button {
 
 .footer-social i {
     margin: 5px;
+}
+
+/* Footer responsividade */
+@media (max-width:375px) {
+    .footer-logo, .footer-links, .footer-social{
+        margin: 20px auto;
+    }
+    .footer-logo img {
+        margin: 0 auto;
+    }
+
+    .footer-links li{
+        text-align: center;
+        margin: 5px 0;
+    }
+    .footer-links {
+        text-align: center;
+    }
 }
