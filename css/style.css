@@ -322,7 +322,7 @@ button {
 
 .footer ul li{
    vertical-align: middle;
-   /*margin: 0 auto;*/
+   
    display: inline-block;
 }
 
@@ -341,8 +341,8 @@ button {
     margin-left: 50px;
 }
 
-.footer-social {
-    margin-left: 250px;
+.footer-logo, .footer-links, .footer-social{
+    margin: 15px auto;
 }
 
 .footer-social a { 
@@ -370,5 +370,19 @@ button {
     }
     .footer-links {
         text-align: center;
+    }
+}
+@media (max-width:720px) {
+    .footer-logo img {
+        margin: 0 auto;
+    }
+    .footer-links ul {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:1440px) {
+    .footer-social {
+        margin-left: 250px;
     }
 }
